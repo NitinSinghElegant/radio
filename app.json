@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Radio Correio Delmiro",
+    "slug": "radiocorreiodelmiro",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashscreen_image.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/icon-ios.png",
+      "supportsTablet": true,
+      "buildNumber": "12",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Este aplicativo precisa de acesso ao microfone para permitir gravações de áudio e possibilitar a interação com a audiência durante as transmissões ao vivo.",
+        "NSPrivacyAccessedAPICategoryUserDefaults": "Este aplicativo salva suas configurações e preferências para personalizar sua experiência de usuário e restaurar suas últimas ações e preferências cada vez que você abre o aplicativo.",
+        "NSPrivacyAccessedAPICategoryDiskSpace": "Precisamos verificar o espaço disponível no disco para garantir que o aplicativo possa funcionar de forma eficiente e para evitar que o armazenamento do seu dispositivo fique cheio. Este acesso nos permite otimizar o armazenamento de dados e cache conforme necessário.",
+        "NSPrivacyAccessedAPICategorySystemBootTime": "O aplicativo utiliza o tempo de inicialização do sistema para oferecer funcionalidades relacionadas a lembretes e agendamentos. Acessar esta informação garante que os lembretes sejam precisos e que as notificações sejam entregues no momento certo.",
+        "NSPrivacyAccessedAPICategoryFileTimestamp": "Este aplicativo acessa os carimbos de data/hora dos arquivos para organizar e apresentar conteúdos baseados na data de modificação, assegurando que a informação mais atual esteja sempre disponível para o usuário.",
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.appliive.radiocorreiodelmiro"
+    },
+    "android": {
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "minSdkVersion": 21,
+      "buildToolsVersion": "34.0.0",
+      "kotlinVersion": "1.8.10",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 7,
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID",
+        "FOREGROUND_SERVICE"
+      ],
+      "package": "com.appliive.radiocorreiodelmiro",
+      "googleServicesFile": "./google-services.json"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#00812D"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    // "extra": {
+    //   "eas": {
+    //     "projectId": "fd8bbbf7-ea30-4e5b-9969-01d47dbaed82"
+    //   }
+    // },
+    "owner": "livecenterhost"
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-9536073092177227~1506743813",
+    "ios_app_id": "ca-app-pub-9536073092177227~6030961114"
+  },
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032925588527",
+    "project_id": "radio-correio-delmiro",
+    "storage_bucket": "radio-correio-delmiro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032925588527:android:fe9017e7c1efa7913f2ada",
+        "android_client_info": {
+          "package_name": "com.appliive.radiocorreiodelmiro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCZsGHQxOv8_aUOC6XOjWC1ddmfnCCsJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

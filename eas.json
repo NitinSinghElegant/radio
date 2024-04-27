@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 0.60.0"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "autoIncrement": "versionCode",
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "autoIncrement": "buildNumber",
+		"image": "latest"
+      }
+    },
+    "preview": {
+      "extends": "production",
+      "distribution": "internal"
+    },
+    "devicePreview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
+    },
+    "development": {
+      "developmentClient": true,
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+
